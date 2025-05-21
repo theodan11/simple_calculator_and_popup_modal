@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculatorIcon">
+            <img src="./assets/image/apple-calculator.png" alt="">
+            <span>Calculator</span>
+        </div>
+
+
+        <div class="calculator">
+            <div class="cHeader">
+                <div class="name">
+                    <img src="./assets/image/apple-calculator.png" alt="">
+                    <h3>Calculator</h3>
+                </div>
+                <button class="closeBtn" id="xbtn">
+                    X
+                </button>
+            </div>
+            <div class="calculatorDisplay">
+                <input type="text" id="cDisplay">
+            </div>
+            <div class="btnContainer">
+                <button onclick="addValue('%')">%</button>
+                <button onclick="clearInput()">C</button>
+                <button onclick="deleteBtn()">Del</button>
+                <button onclick="addValue('/')">/</button>
+                <button onclick="addValue('7')">7</button>
+                <button onclick="addValue('8')">8</button>
+                <button onclick="addValue('9')">9</button>
+                <button onclick="addValue('*')">*</button>
+                <button onclick="addValue('4')">4</button>
+                <button onclick="addValue('5')">5</button>
+                <button onclick="addValue('6')">6</button>
+                <button onclick="addValue('-')">-</button>
+                <button onclick="addValue('1')">1</button>
+                <button onclick="addValue('2')">2</button>
+                <button onclick="addValue('3')">3</button>
+                <button onclick="addValue('+')">+</button>
+                <button onclick="addValue('.')">.</button>
+                <button onclick="addValue('0')">0</button>
+                <button onclick="calculateValues('=')">=</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./calculator.js"></script>
+</body>
+
+</html>
