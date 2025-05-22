@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Popup Modal</title>
 </head>
+
 <body>
     <div class="container">
-        <div class="whatsOnyourmind">
-            <div class="profileAndCaption">
-                <img src="./assets/image/Profile_avatar_placeholder_large.png" alt="">
-                <div class="inputContainer">
-                 <span>What's on your mind, User?</span>
+        <div class="btnContainer">
+            <button id="clickme">Click me</button>
+        </div>
+
+        <div class="popupModal">
+            <div class="popupHeader">
+                <h1>Message</h1>
+                <div class="closeBtn">
+                   <img src="./assets/image/close.png" alt="">
                 </div>
             </div>
-
             <hr>
 
-            <div class="btnContainer">
-                <div class="btnItem">
-                    <img src="./assets/image/live_camera.png" alt="">
-                    <span>Live video</span>
-                </div>
-                <div class="btnItem">
-                    <img src="./assets/image/photos-removebg-preview.png" alt="">
-                    <span>Photo/video</span>
-                </div>
-                <div class="btnItem">
-                    <img src="./assets/image/feeling.png" alt="">
-                    <span>Feeling/activity</span>
+            <div class="popupBody">
+                <p>
+                    It's a popup modal..!<br/>Thank you, have a great day!
+                </p>
+
+                <div class="oknoBtnContainer">
+                    <!-- <button id="okBtn">Okay! Thank you.</button> -->
+                    <button id="noBtn">Close</button>
                 </div>
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
+
 </html>
