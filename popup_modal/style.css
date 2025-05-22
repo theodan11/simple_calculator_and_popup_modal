@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #F2F4F7;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.whatsOnyourmind {
+    width: 742px;
+    height: 156px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    /* border: 1px solid red; */
+    box-shadow: 0 0 2px 2px rgb(226, 226, 226);
+}
+
+.whatsOnyourmind>hr {
+    color: #ffffff;
+}
+
+.whatsOnyourmind .profileAndCaption {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.whatsOnyourmind .profileAndCaption>img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.whatsOnyourmind .profileAndCaption .inputContainer {
+    width: 100%;
+    height: 50px;
+    border-radius: 28px;
+    background-color: #F2F4F7;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 24px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+.whatsOnyourmind .profileAndCaption .inputContainer:hover{
+    background-color: #e3e3e3;
+}
+
+.whatsOnyourmind .profileAndCaption .inputContainer>span {
+
+    font-size: 18px;
+    color: rgb(141, 141, 141);
+
+
+}
+
+.whatsOnyourmind .btnContainer{
+    padding: 14px 18px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.whatsOnyourmind .btnContainer .btnItem{
+    cursor: pointer;
+    padding: 8px 18px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background-color .3s ease;
+}
+.whatsOnyourmind .btnContainer .btnItem > img{
+    width: 38px;
+    /* height: 38px; */
+}
+
+.whatsOnyourmind .btnContainer .btnItem > span{
+   color: rgb(165, 165, 165);
+   /* font-weight: bold; */
+   font-size: 16px;
+}
+
+.whatsOnyourmind .btnContainer .btnItem:hover{
+    background-color: #e3e3e3;
+}

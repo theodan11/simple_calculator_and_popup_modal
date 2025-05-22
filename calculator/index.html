@@ -27,28 +27,32 @@
                 </button>
             </div>
             <div class="calculatorDisplay">
-                <input type="text" id="cDisplay">
+                <input type="text" readonly id="cDisplay">
             </div>
             <div class="btnContainer">
-                <button onclick="addValue('%')">%</button>
-                <button onclick="clearInput()">C</button>
-                <button onclick="deleteBtn()">Del</button>
-                <button onclick="addValue('/')">/</button>
+                <button class="opBtn" onclick="addValue('%')">%</button>
+                <button class="opBtn" onclick="clearInput()">C</button>
+                <button class="opBtn" onclick="deleteBtn()">Del</button>
+                <button class="opBtn" onclick="addValue('/')">/</button>
                 <button onclick="addValue('7')">7</button>
                 <button onclick="addValue('8')">8</button>
                 <button onclick="addValue('9')">9</button>
-                <button onclick="addValue('*')">*</button>
+                <button class="opBtn" onclick="addValue('*')">*</button>
                 <button onclick="addValue('4')">4</button>
                 <button onclick="addValue('5')">5</button>
                 <button onclick="addValue('6')">6</button>
-                <button onclick="addValue('-')">-</button>
+                <button class="opBtn" onclick="addValue('-')">-</button>
                 <button onclick="addValue('1')">1</button>
                 <button onclick="addValue('2')">2</button>
                 <button onclick="addValue('3')">3</button>
-                <button onclick="addValue('+')">+</button>
-                <button onclick="addValue('.')">.</button>
+                <button class="opBtn" onclick="addValue('+')">+</button>
+                <button  onclick="addValue('.')">.</button>
                 <button onclick="addValue('0')">0</button>
                 <button onclick="calculateValues('=')" id="equalBtn">=</button>
+            </div>
+            <div class="nameContainer">
+
+                <span>@Theophil Dango</span>
             </div>
         </div>
     </div>
